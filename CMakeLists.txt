@@ -3,6 +3,7 @@ cmake_minimum_required( VERSION 3.20.0 )
 
 # set enviroemnt variables like the board nad the debug server
 #set(BOARD nrf54l15dk/nrf54l15/cpuapp)
+#set(BOARD nucleo_g0b1re)
 set(BOARD_FLASH_RUNNER jlink)
 
 # Get Zephyr directory
