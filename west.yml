@@ -14,5 +14,5 @@ manifest:
       # place zephyr source code into a directory called deps
       import:
         path-prefix: deps
-        name-allowlist:
+        #name-allowlist:
           # placehere all the packages you want to import
