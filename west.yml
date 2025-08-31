@@ -1,6 +1,6 @@
 manifest:
   # lowest version of the manifest file schema that can parse this file’s data
-  version: 0.8
+  version: 1.2
 
   self:
     path: app
@@ -16,5 +16,5 @@ manifest:
         path-prefix: deps
         name-allowlist:
           # placehere all the packages you want to import
-          - cmsis
+          - cmsis_6
           - hal_nordic
